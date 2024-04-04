@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Formulário de Cadastro</h1>
+      </div>
+    </header>
+      <main>
+        <section>
+          <form action="obrigado.html">
+            <div class="input">
+              <div>
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Digite seu nome"
+                />
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Digite seu email"
+                />
+              </div>
+
+              <div>
+                <label for="age">Idade</label>
+                <input
+                  type="number"
+                  name="age"
+                  id="age"
+                  placeholder="Digite sua idade"
+                />
+              </div>
+
+              <div class="situation">
+                <label for="situation">Qual opção melhor descreve sua situação atual?</label>
+                <div>
+                    <select name="situation" id="situation">
+                </div>
+                        <div>
+                            <option value="1">Selecione uma opção</option>
+                            <option value="2">Estudante</option>
+                            <option value="3">Trabalhador em tempo integral</option>
+                            <option value="4">Estudante em tempo integral</option>
+                            <option value="5">Prefiro não dizer</option>
+                            <option value="6">Outro</option>
+                        </select>
+                      </div>
+              </div>
+            </div>
+
+            <div class="study">
+              <label for="study"></label>
+              <div id="study">
+                <label for="study"
+                  >A quanto tempo você estuda/atua na área?</label
+                >
+
+                <div>
+                    <input type="radio" name="level" id="study-1" />
+                    <label for="study-1">1 a 3 anos</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="level" id="study-2" />
+                    <label for="study-2">3 a 5 anos</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="level" id="study-3" />
+                    <label for="study-3">5 a 7 anos</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="level" id="study-4" />
+                    <label for="study-4">a mais de 10 anos</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="programming">
+                <div>
+                    <label for="programming">Quais das tecnologias abaixo você utiliza no seu dia a dia?</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="language1" id="programming-language-java">
+                    <label for="programming-language-java">Java</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="language2" id="programming-language-csharp">
+                    <label for="programming-language-csharp">C#</label>
+                </div>
+               
+                <div>
+                    <input type="checkbox" name="language3" id="programming-language-javascript">
+                    <label for="programming-cript">JavaScript</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="language4" id="programming-language-python">
+                    <label for="programming-language-python">Python</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="language5" id="programming-language-php">
+                    <label for="programming-language-php">PHP</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="language6" id="programming-language-ruby">
+                    <label for="programming-language-ruby">Ruby</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="language7" id="programming-language-swift">
+                    <label for="programming-language-swift">Swift</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="language8" id="programming-language-shell">
+                    <label for="programming-language-shell">Shell</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="language9" id="programming-language-front">
+                    <label for="programming-language-front">HTML e CSS</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="language10" id="programming-language-sql">
+                    <label for="programming-language-sql">SQL</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="language10" id="programming-language-typescript">
+                    <label for="programming-language-typescript">TypeScript</label>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+          </form>
+        </section>
+      </main>
+  </body>
+</html>
